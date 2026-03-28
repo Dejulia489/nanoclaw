@@ -29,7 +29,7 @@ curl -fsSL https://nanoclaw.dev/install-docker-sandboxes.sh | bash
 curl -fsSL https://nanoclaw.dev/install-docker-sandboxes-windows.sh | bash
 ```
 
-> Currently supported on macOS (Apple Silicon) and Windows (x86). Linux support coming soon.
+> The one-liner installer supports macOS (Apple Silicon) and Windows (WSL2). For Linux, use the [manual setup guide](docs/docker-sandboxes.md).
 
 <p align="center"><a href="https://nanoclaw.dev/blog/nanoclaw-docker-sandboxes">Read the announcement →</a>&nbsp; · &nbsp;<a href="docs/docker-sandboxes.md">Manual setup guide →</a></p>
 
@@ -143,7 +143,7 @@ Skills we'd like to see:
 
 ## Requirements
 
-- macOS or Linux
+- macOS, Linux, or Windows (WSL2)
 - Node.js 20+
 - [Claude Code](https://claude.ai/download)
 - [Apple Container](https://github.com/apple/container) (macOS) or [Docker](https://docker.com/products/docker-desktop) (macOS/Linux)
